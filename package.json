@@ -8,5 +8,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "dependencies": {
+    "aprendiendo-react": "file:"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }
